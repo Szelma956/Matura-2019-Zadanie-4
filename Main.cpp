@@ -27,7 +27,6 @@ bool sprawdz(int liczba) {
 
 int main() {
 	int liczba_szukanych_liczb = 0;
-	//cout << sizeof(short int) << endl;
 	while (!cin.eof() && liczba_wczytanych_liczb < rozmiar_tablicy) {
 		cin >> tablica[liczba_wczytanych_liczb];
 		liczba_wczytanych_liczb = liczba_wczytanych_liczb + 1;
